@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#memberCreated {
+	clear:both;
+	height:35px;
+	overflow: visible;
+	border-bottom:1px solid #DBDBDB;
+	text-align:left;
+}
+
+#memberCreated dt {
+	padding-left:20px;
+	float:left;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	text-align:left;
+	background:#EAEAEA;
+	color: #5D5D5D; 
+	font-size: 12pt;
+	
+}
+#memberCreated dd {
+	padding-left:10px;
+	float:left;
+	height:35px;
+	line-height:35px;
+	text-align:left;
+}
+
+#memberCreated_footer{
+	clear:both;
+	height:35px;
+	overflow: visible;
+	text-align:center;
+}
+
+.finalize-join-page, .join-page{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    height: 100%;
+}
+
+.finalize-join-page {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    height: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+.field-box-wrapper{
+	align:center;
+	width: 600px;
+	height: 350px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top:50%;
+	margin-top: -225px;
+	background-color: rgba(35,35,35,0.6);
+	border-radius: 10px;  
+}
+
+.field-box{
+	align:center;
+	padding-left:40px;
+	margin:20px;
+}
+
+
+.boxTF { border:1px solid; height:25px; margin-top:5px; padding:2px 2px 2px 2px; border-color:#666666; background-color:#ffffff; font-family:"굴림"; font-size:9pt; border-radius:3px; }
+.nonboxTF { border:0px solid; height:20px; margin-top:5px; padding:2px 2px 2px 2px; border-color:#666666; background-color:#ffffff; font-family:"굴림"; font-size:9pt; }
